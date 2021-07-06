@@ -6,6 +6,19 @@ function setup(){
   canvas.parent("canvas-wrapper");
    defaultbg();
 }
+const pallete = document.getElementById("pallete");
+const show = document.getElementById("pallete-div");
+pallete.addEventListener('click', () => {
+  show.classList.add("show")
+})
+
+const hide = document.querySelectorAll('.btn-click')
+hide.forEach(item => {
+  item.addEventListener('click', () => {
+    show.classList.remove("show")
+
+  })
+})
 function mouseDragged() {
   let type;
   if (_("#pen-pencil").checked) {
