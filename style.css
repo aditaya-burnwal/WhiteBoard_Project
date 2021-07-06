@@ -162,6 +162,12 @@ input[type=number]::-webkit-outer-spin-button {
   z-index: 1;
 }
 
+ .show{
+  background-color: #ddd;
+  display: block;
+  background-color: white;
+ }
+
 .btn0
 {
   height:25px;
@@ -235,12 +241,7 @@ input[type=number]::-webkit-outer-spin-button {
   margin: 10px 0 10px 0;
    
  }
- 
- .dropdown-content a:hover {background-color: #ddd;}
- 
- .dropdown:hover .dropdown-content {display: block;}
- 
- .dropdown:hover .dropbtn {background-color: transparent;}
+
  /* TOOLBAR ENDS */
 
  /* APP ENDS */
