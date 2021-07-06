@@ -63,31 +63,37 @@ _("#save-canvas").addEventListener("click",function(){
     document.body.style.backgroundColor = event.target.value;
   });
   
-  function defaultbg() {
-    document.body.style.backgroundColor = "white";
-  }
-  function myFunction1() {
+function defaultbg() {
+  document.body.style.backgroundColor = "white";
+}
+function myFunction1() {
+  setup();
   document.body.style.backgroundColor = "red";
-  }
-  function myFunction2() {
-    document.body.style.backgroundColor = "orange";
-  }
-  function myFunction3() {
-    document.body.style.backgroundColor = "yellow";
-  }
-  function myFunction4() {
-    document.body.style.backgroundColor = "blue";
-  }
-  function myFunction5() {
-    document.body.style.backgroundColor = "green";
-  }
-  function myFunction6() {
-    document.body.style.backgroundColor = "purple";
-  }
-  function myFunction7() {
-    document.body.style.backgroundColor = "black";
-  }
-
+}
+function myFunction2() {
+  setup();
+  document.body.style.backgroundColor = "orange";
+}
+function myFunction3() {
+  setup();
+  document.body.style.backgroundColor = "yellow";
+}
+function myFunction4() {
+  setup();
+  document.body.style.backgroundColor = "blue";
+}
+function myFunction5() {
+  setup();
+  document.body.style.backgroundColor = "green";
+}
+function myFunction6() {
+  setup();
+  document.body.style.backgroundColor = "purple";
+}
+function myFunction7() {
+  setup();
+  document.body.style.backgroundColor = "black";
+}
 
 
 
